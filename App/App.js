@@ -140,7 +140,7 @@ const App = () => {
       <StatusBar translucent backgroundColor="transparent" barStyle={"light-content"}/>
       <NavigationContainer theme={DefaultThemeNav}>
       <Navigation/>
-      <AdmobBanner/>
+      {/*<AdmobBanner/>*/}
       </NavigationContainer>
       </PaperProvider>
       </UserContext.Provider>
